@@ -1,4 +1,4 @@
-package com.fitness.model;
+package com.fitness.user.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -27,7 +27,7 @@ public class User {
     private UserRole role = UserRole.USER;
 
     @CreationTimestamp
-    private LocalDateTime createAt;
+    private LocalDateTime createdAt;
 
     @UpdateTimestamp
     private LocalDateTime updatedAt;

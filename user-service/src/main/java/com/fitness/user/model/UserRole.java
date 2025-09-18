@@ -1,4 +1,4 @@
-package com.fitness.model;
+package com.fitness.user.model;
 
 public enum UserRole {
     USER, ADMIN
